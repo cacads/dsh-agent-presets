@@ -1,0 +1,37 @@
+{
+  "name": "dsh-agent-presets",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness Agent 预设 bundle：三位一体·叙事空间创作系统（trinity-v3）与沙盒执行器（sandbox-executor），以现行声明式 @deepseek-ai/dsh-agent-preset 行提供",
+  "type": "module",
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "agent-preset",
+    "agent-presets"
+  ],
+  "author": "cacads",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cacads/dsh-agent-presets.git"
+  },
+  "homepage": "https://github.com/cacads/dsh-agent-presets",
+  "bugs": {
+    "url": "https://github.com/cacads/dsh-agent-presets/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

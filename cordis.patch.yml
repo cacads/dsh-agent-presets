@@ -652,14 +652,12 @@
                 config:
                   provider: spawn
                   toolName: subagent
-                  backgroundMode: continuable
 
               - id: tool-subagent-fork
                 name: '@deepseek-ai/dsh-tool-subagent'
                 config:
                   provider: fork
                   toolName: subagent_fork
-                  backgroundMode: continuable
 
               # 生产版 dsh 不安装这些可选 provider；如需启用，安装对应 Bundle 后
               # 复制本预设并移除对应工具行的 disabled。
@@ -669,7 +667,6 @@
                 config:
                   provider: codex
                   toolName: subagent_codex
-                  backgroundMode: one-shot
                   maxDepth: provider-managed
 
               - id: tool-subagent-claude-code
@@ -678,7 +675,6 @@
                 config:
                   provider: claude-code
                   toolName: subagent_claude_code
-                  backgroundMode: one-shot
                   maxDepth: provider-managed
 
               - id: workflow-ptc

@@ -1,6 +1,6 @@
 # 由 tools/build_presets_bundle.mjs 生成 —— 请勿手改，改源目录后重新生成。
 #
-# 三个自建 Agent 预设的现行「声明式」形态（DSH 0.2.0-rc.2）。
+# 三个自建 Agent 预设的现行「声明式」形态（DSH 0.2.1-rc.2）。
 # 每一条 insert 都是 @deepseek-ai/dsh-agent-preset 行：
 #   config.id / name / description / order 取自 ~/.dsh/.agent-presets/<id>/preset.yml
 #   config.plugins 逐字取自同目录 agent.cordis.yml

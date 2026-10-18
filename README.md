@@ -40,7 +40,7 @@ dsh plugin --profile <你的 profile> add github:cacads/dsh-agent-presets
 
 ### 需要
 
-- DSH **0.2.0-rc.2** 或兼容版本（`@deepseek-ai/dsh-agent-preset` 与
+- DSH **0.2.1-rc.2** 或兼容版本（`@deepseek-ai/dsh-agent-preset` 与
   `@deepseek-ai/dsh-agent-preset-registry` 须存在）
 - 无需任何凭据（公开仓库）
 
